@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="WebhookDock — zero-dependency local webhook inspector and replay studio.">
+  <title>WebhookDock</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="menuButton" aria-label="Open navigation">☰</button>
+      <div class="brand">
+        <div class="brand-mark">↯</div>
+        <div><strong>WEBHOOKDOCK</strong><span>LOCAL EVENT STUDIO</span></div>
+      </div>
+      <div class="topbar-center">
+        <button class="capture-url" id="captureUrlButton" title="Copy capture URL">
+          <span class="pulse-dot"></span><code id="captureUrl">http://localhost:4400/hooks/default</code><span>□</span>
+        </button>
+      </div>
+      <div class="topbar-actions">
+        <div class="live-indicator" id="liveIndicator"><i></i><span>CONNECTING</span></div>
+        <a class="icon-button" href="https://github.com/richmanstudio/webhoockdock" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+        <button class="primary-button" id="testEventButton">+ TEST EVENT</button>
+      </div>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-mobile-head"><span>CHANNELS</span><button class="icon-button" id="closeSidebar">×</button></div>
+      <nav id="channelNav"></nav>
+      <div class="sidebar-footer">
+        <div class="mini-stat"><span>LOCAL STORAGE</span><b id="storageSize">0 B</b></div>
+        <div class="mini-stat"><span>RETENTION</span><b id="retentionLimit">0</b></div>
+        <div class="duoniq-signature"><span>BUILT BY</span><strong>DUONIQ</strong><i></i></div>
+      </div>
+    </aside>
+
+    <main class="events-panel">
+      <div class="panel-head">
+        <div><span class="eyebrow">INCOMING TRAFFIC</span><h1 id="channelTitle">All events</h1></div>
+        <div class="panel-actions"><button class="icon-button" id="refreshButton" title="Refresh">↻</button><button class="icon-button danger-hover" id="clearButton" title="Clear">×</button></div>
+      </div>
+      <div class="filters">
+        <label class="search-box"><span>⌕</span><input id="searchInput" placeholder="Search payloads and paths"></label>
+        <select id="methodSelect">
+          <option value="">ALL METHODS</option><option>POST</option><option>GET</option><option>PUT</option><option>PATCH</option><option>DELETE</option>
+        </select>
+      </div>
+      <div class="event-list" id="eventList"></div>
+    </main>
+
+    <section class="inspector" id="inspector"></section>
+  </div>
+
+  <button class="sidebar-backdrop" id="sidebarBackdrop" aria-label="Close navigation"></button>
+  <div class="modal-layer hidden" id="modalLayer"></div>
+  <div class="toast hidden" id="toast"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
