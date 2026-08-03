@@ -1,0 +1,46 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="520" fill="#0A0A0A"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="58" fill="#B6FF00" font-size="15" font-weight="700" letter-spacing="3">WEBHOOKDOCK / DATA FLOW</text>
+    <text x="54" y="91" fill="#EDEDED" font-size="26" font-weight="700">A local pipeline with no external service dependency.</text>
+
+    <g transform="translate(55 160)">
+      <rect width="220" height="155" fill="#101010" stroke="#303030"/>
+      <rect width="7" height="155" fill="#B6FF00"/>
+      <text x="29" y="46" fill="#B6FF00" font-size="13" font-weight="700" letter-spacing="2">01 / PRODUCER</text>
+      <text x="29" y="82" fill="#F2F2F2" font-size="21" font-weight="700">External service</text>
+      <text x="29" y="112" fill="#777" font-size="14">GitHub · Stripe · Telegram</text>
+      <text x="29" y="135" fill="#777" font-size="14">or any HTTP client</text>
+    </g>
+
+    <path d="M295 237H402" stroke="#B6FF00" stroke-width="3"/>
+    <path d="M389 226L402 237L389 248" stroke="#B6FF00" stroke-width="3"/>
+
+    <g transform="translate(420 132)">
+      <rect width="355" height="210" fill="#101010" stroke="#B6FF00"/>
+      <text x="27" y="43" fill="#B6FF00" font-size="13" font-weight="700" letter-spacing="2">02 / WEBHOOKDOCK CORE</text>
+      <text x="27" y="81" fill="#F2F2F2" font-size="23" font-weight="700">Capture → redact → verify</text>
+      <line x1="27" y1="101" x2="328" y2="101" stroke="#292929"/>
+      <text x="27" y="130" fill="#9A9A9A" font-size="14">Named channels + body limit</text>
+      <text x="27" y="157" fill="#9A9A9A" font-size="14">Sensitive header redaction</text>
+      <text x="27" y="184" fill="#9A9A9A" font-size="14">HMAC verification + live SSE</text>
+    </g>
+
+    <path d="M795 237H902" stroke="#B6FF00" stroke-width="3"/>
+    <path d="M889 226L902 237L889 248" stroke="#B6FF00" stroke-width="3"/>
+
+    <g transform="translate(920 160)">
+      <rect width="225" height="155" fill="#101010" stroke="#303030"/>
+      <rect x="218" width="7" height="155" fill="#B6FF00"/>
+      <text x="27" y="46" fill="#B6FF00" font-size="13" font-weight="700" letter-spacing="2">03 / LOCAL DATA</text>
+      <text x="27" y="82" fill="#F2F2F2" font-size="21" font-weight="700">Atomic JSON store</text>
+      <text x="27" y="112" fill="#777" font-size="14">Events + replay history</text>
+      <text x="27" y="135" fill="#777" font-size="14">Configurable retention</text>
+    </g>
+
+    <path d="M598 360V421" stroke="#B6FF00" stroke-width="3"/>
+    <path d="M587 408L598 421L609 408" stroke="#B6FF00" stroke-width="3"/>
+    <rect x="420" y="439" width="355" height="48" fill="#B6FF00"/>
+    <text x="468" y="469" fill="#080808" font-size="15" font-weight="800" letter-spacing="1.5">INSPECT / COPY CURL / REPLAY</text>
+  </g>
+</svg>
