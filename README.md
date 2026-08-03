@@ -46,7 +46,7 @@ external service → /hooks/:channel → local store → inspector → replay
 Requirements: **Node.js 20.9 or newer**.
 
 ```bash
-git clone https://github.com/richmanstudio/webhoockdock.git
+git clone https://github.com/richmanstudio/webhoockdock.git webhookdock
 cd webhookdock
 node src/server.mjs
 ```
