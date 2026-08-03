@@ -1,0 +1,18 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="380" fill="#080808"/>
+  <g stroke="#171717">
+    <path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200"/>
+    <path d="M100 0V380M200 0V380M300 0V380M400 0V380M500 0V380M600 0V380M700 0V380M800 0V380M900 0V380M1000 0V380M1100 0V380"/>
+  </g>
+  <rect x="48" y="38" width="1104" height="304" stroke="#2A2A2A"/>
+  <rect x="48" y="38" width="10" height="304" fill="#B6FF00"/>
+  <text x="86" y="82" fill="#B6FF00" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="4">DUONIQ / OPEN SOURCE 01</text>
+  <text x="82" y="205" fill="#F4F4F4" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="800" letter-spacing="-5">WEBHOOKDOCK</text>
+  <text x="88" y="253" fill="#8B8B8B" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" letter-spacing="2">LOCAL-FIRST WEBHOOK INSPECTOR + REPLAY STUDIO</text>
+  <rect x="86" y="286" width="506" height="38" fill="#B6FF00"/>
+  <text x="103" y="311" fill="#080808" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="1.5">ZERO DEPENDENCIES / ZERO CLOUD / ONE COMMAND</text>
+  <circle cx="1111" cy="76" r="8" fill="#B6FF00"/>
+  <path d="M1001 285H1119" stroke="#B6FF00" stroke-width="3"/>
+  <path d="M1060 226V344" stroke="#B6FF00" stroke-width="3"/>
+  <text x="960" y="220" fill="#111111" stroke="#B6FF00" stroke-width="2" font-family="Arial" font-size="150" font-weight="800">↯</text>
+</svg>
