@@ -1,0 +1,48 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="680" rx="18" fill="#080808"/>
+  <rect x="1" y="1" width="1198" height="678" rx="17" stroke="#242424" stroke-width="2"/>
+  <g stroke="#141414"><path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200"/><path d="M100 0V680M200 0V680M300 0V680M400 0V680M500 0V680M600 0V680M700 0V680M800 0V680M900 0V680M1000 0V680M1100 0V680"/></g>
+  <rect x="28" y="24" width="1144" height="58" rx="10" fill="#101010" stroke="#272727"/>
+  <circle cx="59" cy="53" r="8" fill="#B6FF00"/>
+  <text x="82" y="61" fill="#F4F4F4" font-family="Arial" font-size="22" font-weight="800">WEBHOOKDOCK</text>
+  <text x="255" y="59" fill="#6E6E6E" font-family="Arial" font-size="13" font-weight="700" letter-spacing="2">LOCAL EVENT STUDIO</text>
+  <rect x="932" y="39" width="112" height="30" rx="6" fill="#171717" stroke="#303030"/>
+  <circle cx="950" cy="54" r="5" fill="#B6FF00"/><text x="964" y="59" fill="#B6FF00" font-family="Arial" font-size="12" font-weight="700">LIVE</text>
+  <rect x="1054" y="39" width="94" height="30" rx="6" fill="#B6FF00"/><text x="1070" y="59" fill="#080808" font-family="Arial" font-size="12" font-weight="800">TEST EVENT</text>
+
+  <rect x="28" y="100" width="314" height="552" rx="12" fill="#0D0D0D" stroke="#262626"/>
+  <text x="52" y="137" fill="#717171" font-family="Arial" font-size="12" font-weight="700" letter-spacing="2">EVENT STREAM</text>
+  <rect x="48" y="155" width="274" height="48" rx="8" fill="#121212" stroke="#242424"/><text x="64" y="184" fill="#858585" font-family="Arial" font-size="13">Search channel, method, body…</text>
+  <g font-family="Arial">
+    <rect x="48" y="220" width="274" height="88" rx="9" fill="#151A0E" stroke="#B6FF00"/>
+    <rect x="62" y="238" width="45" height="22" rx="4" fill="#B6FF00"/><text x="70" y="254" fill="#080808" font-size="11" font-weight="800">POST</text>
+    <text x="118" y="254" fill="#F2F2F2" font-size="14" font-weight="700">payments</text><text x="62" y="280" fill="#8A8A8A" font-size="12">payment.succeeded</text><text x="251" y="280" fill="#666" font-size="11">NOW</text>
+    <rect x="48" y="320" width="274" height="88" rx="9" fill="#111" stroke="#252525"/>
+    <rect x="62" y="338" width="45" height="22" rx="4" fill="#242424"/><text x="70" y="354" fill="#C8C8C8" font-size="11" font-weight="800">POST</text>
+    <text x="118" y="354" fill="#DADADA" font-size="14" font-weight="700">github</text><text x="62" y="380" fill="#777" font-size="12">push · main</text><text x="245" y="380" fill="#555" font-size="11">12S</text>
+    <rect x="48" y="420" width="274" height="88" rx="9" fill="#111" stroke="#252525"/>
+    <rect x="62" y="438" width="40" height="22" rx="4" fill="#242424"/><text x="70" y="454" fill="#C8C8C8" font-size="11" font-weight="800">GET</text>
+    <text x="114" y="454" fill="#DADADA" font-size="14" font-weight="700">health</text><text x="62" y="480" fill="#777" font-size="12">probe=external</text><text x="241" y="480" fill="#555" font-size="11">1M</text>
+  </g>
+  <text x="52" y="628" fill="#555" font-family="Arial" font-size="11">3 EVENTS · LOCAL STORAGE</text>
+
+  <rect x="360" y="100" width="812" height="552" rx="12" fill="#0D0D0D" stroke="#262626"/>
+  <text x="388" y="137" fill="#B6FF00" font-family="Arial" font-size="12" font-weight="800" letter-spacing="2">POST /HOOKS/PAYMENTS</text>
+  <text x="388" y="166" fill="#666" font-family="Arial" font-size="12">RECEIVED 2026-08-03 17:08:42 · 184 BYTES · VERIFIED</text>
+  <rect x="1012" y="123" width="132" height="34" rx="6" fill="#B6FF00"/><text x="1055" y="145" fill="#080808" font-family="Arial" font-size="12" font-weight="800">REPLAY</text>
+  <path d="M388 187H1144" stroke="#252525"/>
+  <g font-family="Arial" font-size="12" font-weight="700"><text x="388" y="218" fill="#B6FF00">BODY</text><text x="449" y="218" fill="#666">HEADERS</text><text x="530" y="218" fill="#666">QUERY</text><text x="590" y="218" fill="#666">REPLAYS</text></g>
+  <rect x="388" y="238" width="756" height="280" rx="9" fill="#090909" stroke="#222"/>
+  <g font-family="Courier New" font-size="15">
+    <text x="412" y="273" fill="#777">{</text>
+    <text x="430" y="303" fill="#B6FF00">"event"</text><text x="500" y="303" fill="#777">:</text><text x="516" y="303" fill="#F2F2F2">"payment.succeeded"</text><text x="690" y="303" fill="#777">,</text>
+    <text x="430" y="333" fill="#B6FF00">"payment_id"</text><text x="534" y="333" fill="#777">:</text><text x="550" y="333" fill="#F2F2F2">"pay_8472"</text><text x="646" y="333" fill="#777">,</text>
+    <text x="430" y="363" fill="#B6FF00">"amount"</text><text x="500" y="363" fill="#777">:</text><text x="516" y="363" fill="#E7E7E7">12900</text><text x="564" y="363" fill="#777">,</text>
+    <text x="430" y="393" fill="#B6FF00">"currency"</text><text x="516" y="393" fill="#777">:</text><text x="532" y="393" fill="#F2F2F2">"USD"</text><text x="578" y="393" fill="#777">,</text>
+    <text x="430" y="423" fill="#B6FF00">"customer"</text><text x="516" y="423" fill="#777">:</text><text x="532" y="423" fill="#F2F2F2">{ "id": "cus_418", "plan": "pro" }</text>
+    <text x="412" y="453" fill="#777">}</text>
+  </g>
+  <rect x="388" y="540" width="240" height="84" rx="8" fill="#101010" stroke="#242424"/><text x="408" y="566" fill="#6A6A6A" font-family="Arial" font-size="11" font-weight="700">SIGNATURE</text><text x="408" y="596" fill="#B6FF00" font-family="Arial" font-size="15" font-weight="800">VALID / HMAC SHA-256</text>
+  <rect x="646" y="540" width="240" height="84" rx="8" fill="#101010" stroke="#242424"/><text x="666" y="566" fill="#6A6A6A" font-family="Arial" font-size="11" font-weight="700">AUTH HEADER</text><text x="666" y="596" fill="#F0F0F0" font-family="Arial" font-size="15" font-weight="800">[REDACTED]</text>
+  <rect x="904" y="540" width="240" height="84" rx="8" fill="#101010" stroke="#242424"/><text x="924" y="566" fill="#6A6A6A" font-family="Arial" font-size="11" font-weight="700">LAST REPLAY</text><text x="924" y="596" fill="#B6FF00" font-family="Arial" font-size="15" font-weight="800">200 · 84 MS</text>
+</svg>
