@@ -5,7 +5,7 @@ WebhookDock is intentionally dependency-free. Contributions should preserve the 
 ## Local development
 
 ```bash
-git clone https://github.com/richmanstudio/webhoockdock.git
+git clone https://github.com/richmanstudio/webhoockdock.git webhookdock
 cd webhookdock
 npm run dev
 ```
