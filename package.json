@@ -1,0 +1,27 @@
+{
+  "name": "webhookdock",
+  "version": "0.1.0",
+  "description": "Zero-dependency local-first webhook inspector, recorder and replay studio.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Danila / DUONIQ",
+  "scripts": {
+    "dev": "node --watch src/server.mjs",
+    "start": "node src/server.mjs",
+    "test": "node --test",
+    "check": "node --check src/server.mjs && node --check public/app.js && node --test"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "keywords": [
+    "webhook",
+    "webhook-inspector",
+    "webhook-testing",
+    "local-first",
+    "developer-tools",
+    "replay",
+    "github-webhooks",
+    "stripe-webhooks"
+  ]
+}
