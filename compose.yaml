@@ -1,0 +1,16 @@
+services:
+  webhookdock:
+    build: .
+    image: webhookdock:local
+    ports:
+      - "4400:4400"
+    environment:
+      WEBHOOKDOCK_HOST: 0.0.0.0
+      WEBHOOKDOCK_PORT: 4400
+      WEBHOOKDOCK_RETENTION_LIMIT: 5000
+    volumes:
+      - webhookdock-data:/app/.data
+    restart: unless-stopped
+
+volumes:
+  webhookdock-data:
